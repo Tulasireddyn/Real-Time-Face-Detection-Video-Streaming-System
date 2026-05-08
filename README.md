@@ -12,12 +12,12 @@ A high-performance, containerized video streaming system that detects faces in r
 - **Streaming**: WebSockets
 
 ## Features
-- Real-time video streaming via WebSockets.
-- Face detection using MediaPipe.
-- Axis-aligned minimal bounding box (ROI) drawing using Pillow.
-- Automatic storage of ROI coordinates in PostgreSQL.
-- Premium, dark-themed React dashboard.
-- Fully containerized for easy deployment.
+- **Real-time video streaming** via WebSockets.
+- **Advanced Face Detection** using MediaPipe.
+- **Custom Head ROI**: Specifically tuned to include the forehead, hair, and neck for comprehensive facial data.
+- **OpenCV-Free Drawing**: Axis-aligned minimal bounding box (ROI) drawing using **Pillow**.
+- **Data Persistence**: Automatic storage of ROI coordinates in PostgreSQL (or SQLite local fallback).
+- **Premium Dashboard**: Dark-themed, high-performance React UI.
 
 ## Quick Start (Run in 5 Minutes)
 
