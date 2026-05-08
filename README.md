@@ -1,7 +1,7 @@
 # Real-Time Face Detection Video Streaming System
 
 A high-performance, containerized video streaming system that detects faces in real-time, stores Region of Interest (ROI) data in PostgreSQL, and draws axis-aligned bounding boxes using Pillow (no OpenCV).
-
+![Alt Text]([images/demo.png](https://github.com/Tulasireddyn/Real-Time-Face-Detection-Video-Streaming-System/blob/main/Screenshot%202026-05-08%20121447.png))
 ## Tech Stack
 - **Backend**: FastAPI (Python)
 - **Face Detection**: MediaPipe
